@@ -43,6 +43,18 @@ li {
 
 #projects {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#horiseon {
+    height: 300px;
+    width: 150px;
+}
+
+.other {
+    height: ;
+    width: ;
 }
 
 a {
