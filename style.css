@@ -34,9 +34,6 @@ li {
     padding-top: 35px;
 }
 
-.content {
-    
-}
 #about-me {
     text-align: center;
 }
@@ -44,17 +41,22 @@ li {
 #projects {
     text-align: center;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    margin-bottom: -300;
 }
 
 #horiseon {
-    height: 300px;
-    width: 150px;
+    height: 25%;
+    width: 90%;
 }
-
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
 .other {
-    height: ;
-    width: ;
+    height: 300px;
+    width: 40%;
+    margin: 40px;
 }
 
 a {
@@ -65,5 +67,8 @@ a {
     text-align: center;
 
 }
-
+#info {
+    display: inline;
+    text-decoration-color: black;
+}
 .
