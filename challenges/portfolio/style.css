@@ -46,6 +46,7 @@ li {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-bottom: -300;
 }
 
@@ -53,9 +54,14 @@ li {
     height: 25%;
     width: 90%;
 }
-.flexcontainer{
-    display: flex;
-    flex-wrap: wrap;
+
+#h2-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.p {
+    font-weight: bold;
 }
 .other {
     height: 300px;
@@ -68,6 +74,7 @@ a {
     color: white;
 }
 #contact {
+    padding-top: 100px;
     text-align: center;
 
 }
@@ -75,4 +82,3 @@ a {
     display: inline;
     text-decoration-color: black;
 }
-.
